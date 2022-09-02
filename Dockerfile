@@ -1,6 +1,6 @@
 FROM mysql:5.6
 
-ENV MYSQL_DATABASE employeedb
+ENV MYSQL_DATABASE application_analytics
 ENV MYSQL_USER admin
 ENV MYSQL_PASSWORD admin
 ENV MYSQL_ROOT_PASSWORD password
