@@ -4,4 +4,5 @@ ENV MYSQL_DATABASE employeedb
 ENV MYSQL_USER admin
 ENV MYSQL_PASSWORD admin
 ENV MYSQL_ROOT_PASSWORD password
+COPY test.txt /opt
 
