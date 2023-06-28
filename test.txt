@@ -1,3 +1,4 @@
-projectName="master-dev-253408"
-port='8080'
-amqpUrl="amqp://dev:8q3hLTENfc3f4sWU@35.207.253.246:5672/dev"
+projectName : master-dev-253408
+port : 8080
+amqpUrl : amqp://dev:8q3hLTENfc3f4sWU@40.71.177.114:5672/
+
