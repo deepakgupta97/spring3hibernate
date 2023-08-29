@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:${IMAGE_TAG}
+        image: ot-emp-ui/dev/dev2:${IMAGE_TAG}
         ports:
         - containerPort: 80
