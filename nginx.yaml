@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment-${ENV_NAME}
+  name: ${DEPLOYMENT_NAME}
   namespace: ${NAMESPACE}
 spec:
   selector:
@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: ot-emp-ui/dev/dev2:${IMAGE_TAG}
+        image: ot-emp-ui/dev/dev2:1.0
         ports:
         - containerPort: 80
